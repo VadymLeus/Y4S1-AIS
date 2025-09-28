@@ -1,0 +1,8 @@
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\bin\Debug\AIS - LAB - 01.exe.config
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\bin\Debug\AIS - LAB - 01.exe
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\bin\Debug\AIS - LAB - 01.pdb
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\obj\Debug\AIS - LAB - 01.csproj.AssemblyReference.cache
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\obj\Debug\AIS - LAB - 01.csproj.CoreCompileInputs.cache
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\obj\Debug\AIS - LAB - 01.exe
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\obj\Debug\AIS - LAB - 01.pdb
+D:\Studying\Otrabotono\Y4S1\AIS\AIS - LAB - 01\AIS - LAB - 01\AIS - LAB - 01\obj\Debug\AIS - LAB - 01.exe.config

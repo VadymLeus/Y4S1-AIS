@@ -1,0 +1,57 @@
+[System]
+Name='AIS-LAB-03-2'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=15
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Temperature'
+Range=[15 30]
+NumMFs=5
+MF1='VeryCold':'trimf',[15 15 18]
+MF2='Cold':'trimf',[15 18 21]
+MF3='Norm':'trimf',[18 21 24]
+MF4='Warm':'trimf',[21 24 27]
+MF5='VeryWarm':'trimf',[27 30 30]
+
+[Input2]
+Name='SpeedChange'
+Range=[-1 1]
+NumMFs=3
+MF1='Negative':'trimf',[-1 -1 -0.1]
+MF2='Zero':'trimf',[-0.2 0 0.2]
+MF3='Positive':'trimf',[0.1 1 1]
+
+[Output1]
+Name='RegulatorPower'
+Range=[-10 10]
+NumMFs=5
+MF1='VCool':'trimf',[-10 -10 -7]
+MF2='SCool':'trimf',[-8 -4 0]
+MF3='OFF':'trimf',[-2 0 2]
+MF4='SHeat':'trimf',[0 4 8]
+MF5='VHeat':'trimf',[7 10 10]
+
+[Rules]
+5 3, 1 (1) : 1
+5 1, 2 (1) : 1
+4 3, 1 (1) : 1
+4 1, 3 (1) : 1
+1 1, 5 (1) : 1
+1 3, 4 (1) : 1
+2 1, 5 (1) : 1
+2 3, 3 (1) : 1
+5 2, 1 (1) : 1
+4 2, 2 (1) : 1
+1 2, 5 (1) : 1
+2 2, 4 (1) : 1
+3 3, 2 (1) : 1
+3 1, 4 (1) : 1
+3 2, 3 (1) : 1
